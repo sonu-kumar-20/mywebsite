@@ -1,0 +1,118 @@
+#home{
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgb(17,20,23);
+  width: 100%;
+  display: flex;
+
+}
+.wave {
+  display: inline-block;
+  animation: wave-animation 1.5s infinite;
+  transform-origin: 70% 70%; /* anchor point for rotation */
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+.lefthome{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.homedetails{
+  font-size: 3vmax;
+}
+.line1{
+  font-size: 0.8em;
+
+}
+.line2 {
+  font-size: 1.5em;
+  background: linear-gradient(to right, rgb(66, 180, 205), white);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.line3 {
+  margin: 0;
+  padding: 0;
+  font-size: 0.7em;
+  line-height: 1.2;
+  display: block;
+}
+
+
+
+.righthome {
+  display: flex;
+  justify-content: flex-end; /* Pushes image to the right */
+  align-items: center;       /* Optional: centers it vertically */
+  width: 50%;
+  height: 100vh;
+
+}
+
+img {
+  height: 30rem;
+  width: 60%;
+  margin-right: 40px;
+  border-radius: 30px;
+  filter: drop-shadow(2px 2px 20px rgb(116,201,225));
+}
+@media(max-width: 750px) {
+  #home {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .righthome {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; /* ensures text touches image */
+  }
+
+  .righthome img {
+    width: 60%;
+    height: auto;
+    max-height: 40vh;
+    object-fit: contain;
+    margin: 0; /* remove bottom margin to "touch" text */
+  }
+
+  .lefthome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  .homedetails {
+    text-align: center;
+    font-size: 5vw; /* relative sizing for responsiveness */
+  }
+}
+
