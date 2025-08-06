@@ -1,9 +1,27 @@
 import React from 'react';
 import './Home.css';
 import myimage from '../../assets/myimage.png';
-
+  import { useGSAP} from "@gsap/react";
+import gsap from "gsap"
 import { Typewriter } from 'react-simple-typewriter';
+
+import WhatsAppButton from '../Skills/WhatsAppButton';
 const Home = () => {
+  
+   useGSAP(()=>{
+    let tl1 = gsap.timeline();
+
+
+    tl1.from("img",{
+           x: 200,
+    y: 100,
+    duration: 0.5,
+    opacity: 0,
+    scale: 0.5,
+    ease: "power2.out",
+    delay: 0.2
+    })
+   })
   return (
     <div id="home" className="home-container">
       <div className="lefthome">
@@ -36,6 +54,7 @@ const Home = () => {
       <div className="righthome">
         <img src={myimage} alt="Sonu Kumar" />
       </div>
+      <WhatsAppButton/>
     </div>
   );
 };

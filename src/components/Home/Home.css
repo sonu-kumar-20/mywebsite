@@ -4,6 +4,7 @@
   background-color: rgb(17,20,23);
   width: 100%;
   display: flex;
+  margin-bottom: 0;
 
 }
 .wave {
@@ -69,12 +70,15 @@
 
 }
 
-img {
+.righthome img {
   height: 30rem;
   width: 60%;
   margin-right: 40px;
   border-radius: 30px;
-  filter: drop-shadow(2px 2px 20px rgb(116,201,225));
+  filter: drop-shadow(2px 2px 10px rgb(116,201,225));
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media(max-width: 750px) {
   #home {
@@ -94,9 +98,9 @@ img {
   }
 
   .righthome img {
-    width: 60%;
+    width: 90%;
     height: auto;
-    max-height: 40vh;
+    max-height: 70vh;
     object-fit: contain;
     margin: 0; /* remove bottom margin to "touch" text */
   }
@@ -115,4 +119,3 @@ img {
     font-size: 5vw; /* relative sizing for responsiveness */
   }
 }
-

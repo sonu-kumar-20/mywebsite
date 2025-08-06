@@ -1,6 +1,9 @@
+import Card from '../Card/Card'
 import './About.css'
 import React from 'react'
-
+import mern from "../../assets/mern.jpg"
+import java from "../../assets/java.png"
+import software from "../../assets/software.jpg"
 const About = () => {
   return (
     <div id='about'>
@@ -22,7 +25,7 @@ const About = () => {
        <div className="aboutdetails">
         <div className="personalinfo">
           <h1>About</h1>
-          <p>Hi! I’m Sonu, a passionate developer who enjoys turning ideas<br /> into interactive web  apps.
+          <p>Hi! I’m <span >Sonu</span>, a passionate developer who enjoys turning ideas<br /> into interactive web  apps.
 I work with the MERN stack and <br />love solving real-world problems through code.</p>
         </div>
 
@@ -68,9 +71,11 @@ I work with the MERN stack and <br />love solving real-world problems through co
 
 {/* 
         right div start h yha se */}
-      <div className="rightabout">
+      <div className="rightabout" >
 
-
+       <Card title="WEB DEVELOPER" image ={mern}/>
+       <Card title="JAVA " image={java}/>
+       <Card title ="PROBLEM SOLVER" image={software}/>
       </div>
 
     </div>

@@ -1,8 +1,10 @@
 #about{
   height: 100%;
   min-height: 100vh;
-  
+  display: flex;
   width: 100%;
+  margin-top: 250px;
+  margin-bottom: 0;
 }
 
 .leftabout{
@@ -62,4 +64,42 @@ color: white;
 }
 .aboutdetails strong{
   color: rgb(4, 207, 247);
+}
+p span{
+ color: rgb(4, 207, 247);
+  font-weight: 800;
+}
+
+.rightabout{
+   width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+ flex-direction: column;
+  
+}
+
+@media (max-width:750px) {
+  #about{
+    flex-direction: column;
+  }
+  .leftabout{
+    width: 100%;
+    padding: 5%;
+    margin-top: 80px;
+  }
+  .rightabout{
+    width: 100%;
+  }
+  #line2{
+  height: 370px;
+}
+.line{
+  width: 2px;
+  height: 150px;
+  background-color: aqua;
+}
 }

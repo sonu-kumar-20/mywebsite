@@ -1,5 +1,85 @@
-#project{
-  height: 100%;
-  min-height: 100vh;
+#project {
   width: 100%;
+  height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 👈 this centers vertically */
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 60px; /* optional: to prevent overlap with fixed nav */
+  box-sizing: border-box;
+}
+
+
+.carddiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 300px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.slider {
+  width: 100%;
+  height: auto; /* don't fix it to 600px */
+  color: white;
+  display: flex;
+
+  /* 👇 Fix this line */
+  flex-direction: row; /* not start */
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 30px;
+  padding: 20px;
+  scrollbar-width: none; /* hide for Firefox */
+}
+
+.slider::-webkit-scrollbar {
+  display: none; /* hide for Chrome */
+}
+
+
+.carddiv:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.card-text {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card-buttons button {
+  background-color: #90fff6;
+  border: none;
+  padding: 8px 16px;
+  color: rgb(34, 31, 31);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-buttons button:hover {
+  background-color: rgb(79, 213, 240);
+
 }

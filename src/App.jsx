@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Contact  from './components/Contact/Contact'
-import Skills from './components/Skills/Skills'
+import Skills from './components/Skills/WhatsAppButton'
 function App() {
  
 
@@ -16,7 +16,7 @@ function App() {
     <About/>
     <Projects/>
     <Contact/>
-    <Skills/>
+   
      
     </>
   )
