@@ -6,12 +6,14 @@
   justify-content: center; /* 👈 this centers vertically */
   flex-direction: column;
   gap: 30px;
+  
   padding-top: 60px; /* optional: to prevent overlap with fixed nav */
   box-sizing: border-box;
 }
 
 h1{
   text-align: center;
+  margin: 5px;
 }
 .carddiv {
   display: flex;
@@ -94,6 +96,13 @@ h1{
    
    
   }
+
+  #project{
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+
+  
 
   .carddiv{
    width: 95%;

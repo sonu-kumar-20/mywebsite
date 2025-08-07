@@ -21,6 +21,8 @@ const About = () => {
 
           <input type="submit" id='btn' value="send  " />
         </form>
+
+        
       </div>
     </div>
   )
