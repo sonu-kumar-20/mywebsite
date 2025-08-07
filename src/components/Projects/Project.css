@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 
-
+h1{
+  text-align: center;
+}
 .carddiv {
   display: flex;
   flex-direction: column;
@@ -82,4 +84,16 @@
 .card-buttons button:hover {
   background-color: rgb(79, 213, 240);
 
+}
+
+@media (max-width: 750px) {
+ .card-content {
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+h1{
+  text-align: center;
+}
 }
