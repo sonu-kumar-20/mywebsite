@@ -21,3 +21,17 @@ transition: transform 0.3s ease;
 .whatsapp-float-with-text:hover {
   transform: scale(1.05);
 }
+
+
+@media (max-width: 750px) {
+  
+.whatsapp-float-with-text{
+width: 50px;
+height: 50;
+
+}
+span{
+ display: none;
+}
+ 
+}
