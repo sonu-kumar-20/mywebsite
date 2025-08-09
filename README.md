@@ -53,10 +53,11 @@ The portfolio serves as a central hub for my professional presence, displaying m
 ---
 
 ## 5. Live Demo
+💼 **[My Portfolio](https://sonukumarwebsite.netlify.app/)** – Personal portfolio website showcasing my skills and projects, built with React.
 
-**🔗 [View Portfolio](https://sonukumarwebsite.netlify.app/)**
+🏠 **[My Apartment](https://myapartment.onrender.com/listings)** – Full-stack rental property listing platform built with Node.js, Express, MongoDB, and Bootstrap.  
 
----
+🎵 **[My Music](https://my-music-sss.netlify.app/)** – Responsive music streaming app built with React & React Router.  
 
-Do you want me to also **add screenshots section** like we did for *My Apartment*?
-That will make your portfolio README look more complete on GitHub.
+
+
