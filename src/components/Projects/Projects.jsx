@@ -16,7 +16,7 @@ const About = () => {
         This is a full stack project with advanced features: OTP verification, image upload, live chat with house owner, and search listings by city/title/location.
       </p>
       <div className="card-buttons">
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sonu-kumar-20/myapartment" target="_blank" rel="noopener noreferrer">
           <button>Source Code</button>
         </a>
         <a href="https://myapartment.onrender.com/listings" target="_blank" rel="noopener noreferrer">
@@ -31,10 +31,10 @@ const About = () => {
 
     <div className="card-content">
       <p className="card-text">
-        This is a full stack project with advanced features: OTP verification, image upload, live chat with house owner, and search listings by city/title/location.
+    Creating a coding platform with solutions, notes, favourites, and progress tracking, featuring authentication for personalized learning and easy revision. working on admin page.
       </p>
       <div className="card-buttons">
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sonu-kumar-20/MYCODE" target="_blank" rel="noopener noreferrer">
           <button>Source Code</button>
         </a>
         <a href="https://your-live-project-link.com" target="_blank" rel="noopener noreferrer">
@@ -53,7 +53,7 @@ const About = () => {
      responsive music player using React with routing, allowing users to play, like, and manage songs, create playlists, and mark favorites — optimized for both desktop and mobile.
       </p>
       <div className="card-buttons">
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sonu-kumar-20/My-Music" target="_blank" rel="noopener noreferrer">
           <button>Source Code</button>
         </a>
         <a href="https://my-music-sss.netlify.app/" target="_blank" rel="noopener noreferrer">
