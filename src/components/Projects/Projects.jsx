@@ -37,7 +37,7 @@ const About = () => {
         <a href="https://github.com/sonu-kumar-20/MYCODE" target="_blank" rel="noopener noreferrer">
           <button>Source Code</button>
         </a>
-        <a href="https://your-live-project-link.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sonu-kumar-20/MYCODE" target="_blank" rel="noopener noreferrer">
           <button>View Live</button>
         </a>
       </div>
