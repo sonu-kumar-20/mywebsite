@@ -9,7 +9,7 @@ const About = () => {
       <h1 id="abouthone">1+ YEARS EXPERINCED IN MULTIPLE PROJECTS  </h1>
      <div className="slider">
   <div className='carddiv'>
-    <Card image={myhome} title="My Home"/> {/* If Card is just an image or icon, it's okay */}
+    <Card image={myhome} title="MyApartment"/> {/* If Card is just an image or icon, it's okay */}
 
     <div className="card-content">
       <p className="card-text">
